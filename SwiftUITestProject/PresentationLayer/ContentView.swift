@@ -15,33 +15,35 @@ struct ContentView: View {
         sortDescriptors: [NSSortDescriptor(keyPath: \Item.timestamp, ascending: true)],
         animation: .default)
     private var items: FetchedResults<Item>
+    
+    private var isActivated: Bool = false
 
     var body: some View {
-        NavigationView {
-            List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp!, formatter: itemFormatter)")
-                    } label: {
-                        Text(item.timestamp!, formatter: itemFormatter)
-                    }
-                }
-                .onDelete(perform: deleteItems)
+        VStack {
+            Text("안녕 SwiftUI")
+                .fontWeight(.heavy)
+                .fontDesign(.monospaced)
+                .font(.system(size: 20))
+                .foregroundColor(.black)
+            
+            VStack {
+                
+                MyVStackView()
+                MyVStackView()
+                MyVStackView()
+                
+            } // VStack
+            .padding(10)
+            .background(isActivated ? Color.yellow : Color.black) // isActivated가 true면 Yellow 그렇지 않다면
+            .onTapGesture {
+                
+                print("VStack 클릭 되었습니다.")
             }
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
-                }
-                ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
-                    }
-                }
-            }
-            Text("Select an item")
         }
     }
+}
 
+extension ContentView {
     private func addItem() {
         withAnimation {
             let newItem = Item(context: viewContext)
@@ -72,6 +74,7 @@ struct ContentView: View {
             }
         }
     }
+
 }
 
 private let itemFormatter: DateFormatter = {
@@ -83,6 +86,9 @@ private let itemFormatter: DateFormatter = {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+        ContentView().environment(
+            \.managedObjectContext,
+             PersistenceController.preview.container.viewContext
+        )
     }
 }

@@ -16,6 +16,7 @@
 		0B0A8F142A308272000002F9 /* SwiftUITestProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0A8F132A308272000002F9 /* SwiftUITestProjectTests.swift */; };
 		0B0A8F1E2A308272000002F9 /* SwiftUITestProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0A8F1D2A308272000002F9 /* SwiftUITestProjectUITests.swift */; };
 		0B0A8F202A308272000002F9 /* SwiftUITestProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0A8F1F2A308272000002F9 /* SwiftUITestProjectUITestsLaunchTests.swift */; };
+		0B0A8F2D2A308FBC000002F9 /* MyHStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0A8F2C2A308FBC000002F9 /* MyHStackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		0B0A8F192A308272000002F9 /* SwiftUITestProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUITestProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B0A8F1D2A308272000002F9 /* SwiftUITestProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITestProjectUITests.swift; sourceTree = "<group>"; };
 		0B0A8F1F2A308272000002F9 /* SwiftUITestProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITestProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0B0A8F2C2A308FBC000002F9 /* MyHStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +101,13 @@
 			isa = PBXGroup;
 			children = (
 				0B0A8EFD2A30826F000002F9 /* SwiftUITestProjectApp.swift */,
-				0B0A8EFF2A30826F000002F9 /* ContentView.swift */,
 				0B0A8F012A308272000002F9 /* Assets.xcassets */,
 				0B0A8F062A308272000002F9 /* Persistence.swift */,
 				0B0A8F082A308272000002F9 /* SwiftUITestProject.xcdatamodeld */,
 				0B0A8F032A308272000002F9 /* Preview Content */,
+				0B0A8F302A31FBB0000002F9 /* DataLayer */,
+				0B0A8F2F2A31FB97000002F9 /* DomainLayer */,
+				0B0A8F2E2A31F6B5000002F9 /* PresentationLayer */,
 			);
 			path = SwiftUITestProject;
 			sourceTree = "<group>";
@@ -131,6 +135,29 @@
 				0B0A8F1F2A308272000002F9 /* SwiftUITestProjectUITestsLaunchTests.swift */,
 			);
 			path = SwiftUITestProjectUITests;
+			sourceTree = "<group>";
+		};
+		0B0A8F2E2A31F6B5000002F9 /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				0B0A8EFF2A30826F000002F9 /* ContentView.swift */,
+				0B0A8F2C2A308FBC000002F9 /* MyHStackView.swift */,
+			);
+			path = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		0B0A8F2F2A31FB97000002F9 /* DomainLayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DomainLayer;
+			sourceTree = "<group>";
+		};
+		0B0A8F302A31FBB0000002F9 /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +293,7 @@
 				0B0A8F072A308272000002F9 /* Persistence.swift in Sources */,
 				0B0A8F0A2A308272000002F9 /* SwiftUITestProject.xcdatamodeld in Sources */,
 				0B0A8F002A30826F000002F9 /* ContentView.swift in Sources */,
+				0B0A8F2D2A308FBC000002F9 /* MyHStackView.swift in Sources */,
 				0B0A8EFE2A30826F000002F9 /* SwiftUITestProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
