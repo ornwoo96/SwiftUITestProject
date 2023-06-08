@@ -16,30 +16,12 @@ struct ContentView: View {
         animation: .default)
     private var items: FetchedResults<Item>
     
-    private var isActivated: Bool = false
-
     var body: some View {
-        VStack {
-            Text("안녕 SwiftUI")
-                .fontWeight(.heavy)
-                .fontDesign(.monospaced)
-                .font(.system(size: 20))
-                .foregroundColor(.black)
-            
-            VStack {
-                
-                MyVStackView()
-                MyVStackView()
-                MyVStackView()
-                
-            } // VStack
-            .padding(10)
-            .background(isActivated ? Color.yellow : Color.black) // isActivated가 true면 Yellow 그렇지 않다면
-            .onTapGesture {
-                
-                print("VStack 클릭 되었습니다.")
-            }
-        }
+        Text("안녕 SwiftUI")
+            .fontWeight(.heavy)
+            .fontDesign(.monospaced)
+            .font(.system(size: 20))
+            .foregroundColor(.black)
     }
 }
 
