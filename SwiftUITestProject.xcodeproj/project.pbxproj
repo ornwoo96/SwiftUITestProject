@@ -16,6 +16,8 @@
 		0B0A8F142A308272000002F9 /* SwiftUITestProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0A8F132A308272000002F9 /* SwiftUITestProjectTests.swift */; };
 		0B0A8F1E2A308272000002F9 /* SwiftUITestProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0A8F1D2A308272000002F9 /* SwiftUITestProjectUITests.swift */; };
 		0B0A8F202A308272000002F9 /* SwiftUITestProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0A8F1F2A308272000002F9 /* SwiftUITestProjectUITestsLaunchTests.swift */; };
+		0B0A8F342A31FF74000002F9 /* MyVStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0A8F332A31FF74000002F9 /* MyVStackView.swift */; };
+		0B0A8F362A32BAC5000002F9 /* MyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0A8F352A32BAC5000002F9 /* MyTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		0B0A8F192A308272000002F9 /* SwiftUITestProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUITestProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B0A8F1D2A308272000002F9 /* SwiftUITestProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITestProjectUITests.swift; sourceTree = "<group>"; };
 		0B0A8F1F2A308272000002F9 /* SwiftUITestProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITestProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0B0A8F332A31FF74000002F9 /* MyVStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVStackView.swift; sourceTree = "<group>"; };
+		0B0A8F352A32BAC5000002F9 /* MyTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +143,8 @@
 			isa = PBXGroup;
 			children = (
 				0B0A8EFF2A30826F000002F9 /* ContentView.swift */,
+				0B0A8F332A31FF74000002F9 /* MyVStackView.swift */,
+				0B0A8F352A32BAC5000002F9 /* MyTextView.swift */,
 			);
 			path = PresentationLayer;
 			sourceTree = "<group>";
@@ -288,6 +294,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B0A8F072A308272000002F9 /* Persistence.swift in Sources */,
+				0B0A8F362A32BAC5000002F9 /* MyTextView.swift in Sources */,
+				0B0A8F342A31FF74000002F9 /* MyVStackView.swift in Sources */,
 				0B0A8F0A2A308272000002F9 /* SwiftUITestProject.xcdatamodeld in Sources */,
 				0B0A8F002A30826F000002F9 /* ContentView.swift in Sources */,
 				0B0A8EFE2A30826F000002F9 /* SwiftUITestProjectApp.swift in Sources */,
