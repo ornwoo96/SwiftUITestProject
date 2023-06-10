@@ -9,6 +9,16 @@ import SwiftUI
 
 struct MyTextView: View {
     
+    // 데이터를 연동시킨다
+    @Binding
+    var isActivated: Bool
+    
+    // 생성자 생성
+    init(isActivated: Binding<Bool> = .constant(false)) {
+        _isActivated = isActivated
+    }
+    
+    
     // @State 값의 변화를 감지 -> 뷰에 적용
     @State
     private var index: Int = 0
@@ -24,7 +34,6 @@ struct MyTextView: View {
     
     var body: some View {
         VStack {
-            
             Spacer()
             
             Text("배경 아이템 인덱스\(self.index)")
@@ -33,12 +42,15 @@ struct MyTextView: View {
                 .frame(minWidth: 0,
                        maxWidth: .infinity,
                        minHeight: 0,
-                       maxHeight: .infinity)
+                       maxHeight: 100)
             
-            
+            Text("활성화 상태 : \(String(self.isActivated))")
+                .font(.system(size: 30))
+                .fontWeight(.bold)
+                .foregroundColor(isActivated ? Color.yellow : Color.gray)
+                .background(Color(.black))
             
             Spacer()
-            
         }
         .background(backgroundColors[index])
         .edgesIgnoringSafeArea(.bottom)

@@ -10,7 +10,7 @@ import CoreData
 
 struct ContentView: View {
     @Environment(\.managedObjectContext) private var viewContext
-
+    
     @FetchRequest(
         sortDescriptors: [NSSortDescriptor(keyPath: \Item.timestamp, ascending: true)],
         animation: .default)
@@ -19,7 +19,8 @@ struct ContentView: View {
     // @State 값의 변화를 감지 -> 뷰에 적용
     @State
     private var isActivated: Bool = false
-
+    
+    
     var body: some View {
         NavigationView {
             
@@ -32,9 +33,9 @@ struct ContentView: View {
                 
                 VStack {
                     
-                    MyVStackView()
-                    MyVStackView()
-                    MyVStackView()
+                    MyVStackView(isActivated: $isActivated)
+                    MyVStackView(isActivated: $isActivated)
+                    MyVStackView(isActivated: $isActivated)
                     
                 } // VStack
                 .padding(isActivated ? 50.0 : 10.0)
@@ -49,7 +50,7 @@ struct ContentView: View {
                 }
                 
                 // 네비게이션 버튼(링크)
-                NavigationLink(destination: MyTextView()) {
+                NavigationLink(destination: MyTextView(isActivated: $isActivated)) {
                     Text("네비게이션 버튼")
                         .fontWeight(.heavy)
                         .font(.system(size: 40))
