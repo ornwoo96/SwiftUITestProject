@@ -18,6 +18,7 @@
 		0B0A8F202A308272000002F9 /* SwiftUITestProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0A8F1F2A308272000002F9 /* SwiftUITestProjectUITestsLaunchTests.swift */; };
 		0B0A8F342A31FF74000002F9 /* MyVStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0A8F332A31FF74000002F9 /* MyVStackView.swift */; };
 		0B0A8F362A32BAC5000002F9 /* MyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0A8F352A32BAC5000002F9 /* MyTextView.swift */; };
+		0BEBD3732A37173300C5EED2 /* MyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD3722A37173300C5EED2 /* MyWebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		0B0A8F1F2A308272000002F9 /* SwiftUITestProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITestProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0B0A8F332A31FF74000002F9 /* MyVStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVStackView.swift; sourceTree = "<group>"; };
 		0B0A8F352A32BAC5000002F9 /* MyTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextView.swift; sourceTree = "<group>"; };
+		0BEBD3712A37167800C5EED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0BEBD3722A37173300C5EED2 /* MyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,7 @@
 		0B0A8EFC2A30826F000002F9 /* SwiftUITestProject */ = {
 			isa = PBXGroup;
 			children = (
+				0BEBD3712A37167800C5EED2 /* Info.plist */,
 				0B0A8EFD2A30826F000002F9 /* SwiftUITestProjectApp.swift */,
 				0B0A8F012A308272000002F9 /* Assets.xcassets */,
 				0B0A8F062A308272000002F9 /* Persistence.swift */,
@@ -145,6 +149,7 @@
 				0B0A8EFF2A30826F000002F9 /* ContentView.swift */,
 				0B0A8F332A31FF74000002F9 /* MyVStackView.swift */,
 				0B0A8F352A32BAC5000002F9 /* MyTextView.swift */,
+				0BEBD3722A37173300C5EED2 /* MyWebView.swift */,
 			);
 			path = PresentationLayer;
 			sourceTree = "<group>";
@@ -297,6 +302,7 @@
 				0B0A8F362A32BAC5000002F9 /* MyTextView.swift in Sources */,
 				0B0A8F342A31FF74000002F9 /* MyVStackView.swift in Sources */,
 				0B0A8F0A2A308272000002F9 /* SwiftUITestProject.xcdatamodeld in Sources */,
+				0BEBD3732A37173300C5EED2 /* MyWebView.swift in Sources */,
 				0B0A8F002A30826F000002F9 /* ContentView.swift in Sources */,
 				0B0A8EFE2A30826F000002F9 /* SwiftUITestProjectApp.swift in Sources */,
 			);
@@ -460,6 +466,7 @@
 				DEVELOPMENT_TEAM = DAG6F8V8UR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUITestProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -489,6 +496,7 @@
 				DEVELOPMENT_TEAM = DAG6F8V8UR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUITestProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

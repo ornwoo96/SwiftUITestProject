@@ -50,7 +50,7 @@ struct ContentView: View {
                 }
                 
                 // 네비게이션 버튼(링크)
-                NavigationLink(destination: MyTextView(isActivated: $isActivated)) {
+                NavigationLink(destination: MyWebView(urlToLoad: "https://www.naver.com")) {
                     Text("네비게이션 버튼")
                         .fontWeight(.heavy)
                         .font(.system(size: 40))
