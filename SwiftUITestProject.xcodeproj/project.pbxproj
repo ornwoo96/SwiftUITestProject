@@ -22,6 +22,10 @@
 		0BEBD3752A3720BF00C5EED2 /* TextTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD3742A3720BF00C5EED2 /* TextTestView.swift */; };
 		0BEBD3772A372E8700C5EED2 /* ImageTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD3762A372E8700C5EED2 /* ImageTestView.swift */; };
 		0BEBD3792A374ED700C5EED2 /* StackTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD3782A374ED700C5EED2 /* StackTestView.swift */; };
+		0BEBD37B2A3752B700C5EED2 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD37A2A3752B700C5EED2 /* NavigationView.swift */; };
+		0BEBD37D2A37557B00C5EED2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD37C2A37557B00C5EED2 /* MainView.swift */; };
+		0BEBD3812A3757B800C5EED2 /* MyProjectCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD3802A3757B800C5EED2 /* MyProjectCard.swift */; };
+		0BEBD3832A3837BE00C5EED2 /* MyBasicCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD3822A3837BE00C5EED2 /* MyBasicCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +65,10 @@
 		0BEBD3742A3720BF00C5EED2 /* TextTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTestView.swift; sourceTree = "<group>"; };
 		0BEBD3762A372E8700C5EED2 /* ImageTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTestView.swift; sourceTree = "<group>"; };
 		0BEBD3782A374ED700C5EED2 /* StackTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTestView.swift; sourceTree = "<group>"; };
+		0BEBD37A2A3752B700C5EED2 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		0BEBD37C2A37557B00C5EED2 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		0BEBD3802A3757B800C5EED2 /* MyProjectCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectCard.swift; sourceTree = "<group>"; };
+		0BEBD3822A3837BE00C5EED2 /* MyBasicCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBasicCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,13 +160,13 @@
 		0B0A8F2E2A31F6B5000002F9 /* PresentationLayer */ = {
 			isa = PBXGroup;
 			children = (
+				0BEBD37F2A3757A800C5EED2 /* ToDoViews */,
+				0BEBD37E2A37570C00C5EED2 /* TestViews */,
+				0BEBD37C2A37557B00C5EED2 /* MainView.swift */,
+				0BEBD37A2A3752B700C5EED2 /* NavigationView.swift */,
 				0B0A8EFF2A30826F000002F9 /* ContentView.swift */,
 				0B0A8F332A31FF74000002F9 /* MyVStackView.swift */,
-				0B0A8F352A32BAC5000002F9 /* MyTextView.swift */,
 				0BEBD3722A37173300C5EED2 /* MyWebView.swift */,
-				0BEBD3742A3720BF00C5EED2 /* TextTestView.swift */,
-				0BEBD3762A372E8700C5EED2 /* ImageTestView.swift */,
-				0BEBD3782A374ED700C5EED2 /* StackTestView.swift */,
 			);
 			path = PresentationLayer;
 			sourceTree = "<group>";
@@ -175,6 +183,26 @@
 			children = (
 			);
 			path = DataLayer;
+			sourceTree = "<group>";
+		};
+		0BEBD37E2A37570C00C5EED2 /* TestViews */ = {
+			isa = PBXGroup;
+			children = (
+				0B0A8F352A32BAC5000002F9 /* MyTextView.swift */,
+				0BEBD3742A3720BF00C5EED2 /* TextTestView.swift */,
+				0BEBD3762A372E8700C5EED2 /* ImageTestView.swift */,
+				0BEBD3782A374ED700C5EED2 /* StackTestView.swift */,
+			);
+			path = TestViews;
+			sourceTree = "<group>";
+		};
+		0BEBD37F2A3757A800C5EED2 /* ToDoViews */ = {
+			isa = PBXGroup;
+			children = (
+				0BEBD3802A3757B800C5EED2 /* MyProjectCard.swift */,
+				0BEBD3822A3837BE00C5EED2 /* MyBasicCard.swift */,
+			);
+			path = ToDoViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,14 +336,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B0A8F072A308272000002F9 /* Persistence.swift in Sources */,
+				0BEBD37D2A37557B00C5EED2 /* MainView.swift in Sources */,
 				0B0A8F362A32BAC5000002F9 /* MyTextView.swift in Sources */,
+				0BEBD37B2A3752B700C5EED2 /* NavigationView.swift in Sources */,
 				0B0A8F342A31FF74000002F9 /* MyVStackView.swift in Sources */,
 				0BEBD3772A372E8700C5EED2 /* ImageTestView.swift in Sources */,
 				0B0A8F0A2A308272000002F9 /* SwiftUITestProject.xcdatamodeld in Sources */,
 				0BEBD3792A374ED700C5EED2 /* StackTestView.swift in Sources */,
+				0BEBD3832A3837BE00C5EED2 /* MyBasicCard.swift in Sources */,
 				0BEBD3732A37173300C5EED2 /* MyWebView.swift in Sources */,
 				0BEBD3752A3720BF00C5EED2 /* TextTestView.swift in Sources */,
 				0B0A8F002A30826F000002F9 /* ContentView.swift in Sources */,
+				0BEBD3812A3757B800C5EED2 /* MyProjectCard.swift in Sources */,
 				0B0A8EFE2A30826F000002F9 /* SwiftUITestProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
