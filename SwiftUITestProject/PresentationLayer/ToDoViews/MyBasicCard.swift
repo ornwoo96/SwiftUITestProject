@@ -8,45 +8,38 @@
 import SwiftUI
 
 struct MyBasicCard: View {
-    var backgroundColor: Color
-    var mainImage: String
-    var sessionName: String
-    var sessionTime: String
+    let cardEntity: CardEntity
     
-    init(backgroundColor: Color,
-         mainImage: String,
-         sessionName: String,
-         sessionTime: String) {
-        self.backgroundColor = backgroundColor
-        self.mainImage = mainImage
-        self.sessionName = sessionName
-        self.sessionTime = sessionTime
+    init(cardEntity: CardEntity) {
+        self.cardEntity = cardEntity
     }
     
     var body: some View {
         HStack(spacing: 20) {
-            Image(systemName: mainImage)
-                .font(.system(size: 40))
+            Image(systemName: cardEntity.mainImage)
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 30, height: 30)
                 .foregroundColor(.white)
                 
             VStack(alignment: .leading, spacing: 0) {
                 Divider().opacity(0)
                 
-                Text(sessionName)
+                Text(cardEntity.sessionName)
                     .fontWeight(.bold)
                     .font(.system(size: 23))
                     .foregroundColor(Color.white)
                 
                 Spacer().frame(height: 5)
                 
-                Text(sessionTime)
+                Text(cardEntity.sessionTime)
                     .foregroundColor(Color.white)
             }
             
             
         }
         .padding(20)
-        .background(backgroundColor)
+        .background(cardEntity.backgroundColor)
         .cornerRadius(20)
         .shadow(radius: 5)
     }
@@ -54,9 +47,6 @@ struct MyBasicCard: View {
 
 struct MyBasicCard_Previews: PreviewProvider {
     static var previews: some View {
-        MyBasicCard(backgroundColor: .purple,
-                    mainImage: "flag.fill",
-                    sessionName: "유튭 라이브 버닝",
-                    sessionTime: "8AM - 10AM")
+        MyBasicCard(cardEntity: CardEntity.dummyData[0])
     }
 }

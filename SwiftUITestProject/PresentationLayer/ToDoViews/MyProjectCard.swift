@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct MyProjectCard: View {
+    @State
+    var shouldShowAlert: Bool = false
+    
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
             Rectangle().frame(height: 0)
@@ -45,14 +48,20 @@ struct MyProjectCard: View {
                     .clipShape(Circle())
 
                 Spacer()
+                Button(action: {
+                    self.shouldShowAlert = true
+                }) {
+                    Text("접속")
+                        .fontWeight(.heavy)
+                        .foregroundColor(.white)
+                        .padding()
+                        .frame(width: 80)
+                        .background(Color.blue)
+                        .cornerRadius(20)
+                }.alert(isPresented: $shouldShowAlert) {
+                    Alert(title: Text("바보입니다."))
+                }
                 
-                Text("확인")
-                    .fontWeight(.bold)
-                    .foregroundColor(.white)
-                    .padding()
-                    .frame(width: 80)
-                    .background(Color.blue)
-                    .cornerRadius(20)
             }
         }
         .padding(30)
