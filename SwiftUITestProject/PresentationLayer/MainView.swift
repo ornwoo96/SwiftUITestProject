@@ -7,6 +7,9 @@
 
 import SwiftUI
 
+// MARK: NavigationView 를 뷰마다 감싸면 여러개의 네비게이션이 겹쳐서 사용되는 꼴임 그래서 네비게이션은 한번만 선언하고
+// MARK: 타고 들어가는 뷰에서 hidden을 조절하는게 베스트
+
 struct MainView: View {
     var cardEntityArray = CardEntity.dummyData
     
@@ -26,9 +29,13 @@ struct MainView: View {
                             
                             Spacer()
                             
-                            Image(systemName: "person.crop.circle")
-                                .font(.system(size: 30))
-                                .foregroundColor(.black)
+                            NavigationLink(destination: ProfileView()) {
+                                Image(systemName: "person.crop.circle")
+                                    .font(.system(size: 30))
+                                    .foregroundColor(.black)
+                                    .padding(.trailing, 10)
+                            }
+                            
                             
                         }.padding(.bottom, 10)
                         

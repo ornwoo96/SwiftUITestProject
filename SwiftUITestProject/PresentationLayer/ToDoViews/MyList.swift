@@ -13,7 +13,6 @@ struct MyList: View {
     
     init(isNavigationBarHidden: Binding<Bool> = .constant(false)) {
         _isNavigationBarHidden = isNavigationBarHidden
-        UITableView.appearance().separatorStyle = .none
     }
     
     var body: some View {
@@ -43,8 +42,9 @@ struct MyList: View {
         .listStyle(.grouped)
         .background(Color.clear)
         .navigationTitle("내 목록")
-        .navigationBarHidden(false)
-        .navigationBarTitleDisplayMode(.inline)
+        .onAppear {
+            self.isNavigationBarHidden = false
+        }
     }
 }
 

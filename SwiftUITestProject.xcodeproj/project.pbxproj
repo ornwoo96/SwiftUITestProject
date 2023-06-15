@@ -28,6 +28,8 @@
 		0BEBD3832A3837BE00C5EED2 /* MyBasicCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD3822A3837BE00C5EED2 /* MyBasicCard.swift */; };
 		0BEBD3852A3866BB00C5EED2 /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD3842A3866BB00C5EED2 /* MyList.swift */; };
 		0BEBD3892A38734F00C5EED2 /* CardEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD3882A38734F00C5EED2 /* CardEntity.swift */; };
+		0BEBD38B2A39CDDD00C5EED2 /* CustomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD38A2A39CDDD00C5EED2 /* CustomNavigationView.swift */; };
+		0BEBD38D2A3ACF0100C5EED2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD38C2A3ACF0100C5EED2 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,8 @@
 		0BEBD3822A3837BE00C5EED2 /* MyBasicCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBasicCard.swift; sourceTree = "<group>"; };
 		0BEBD3842A3866BB00C5EED2 /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
 		0BEBD3882A38734F00C5EED2 /* CardEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardEntity.swift; sourceTree = "<group>"; };
+		0BEBD38A2A39CDDD00C5EED2 /* CustomNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationView.swift; sourceTree = "<group>"; };
+		0BEBD38C2A3ACF0100C5EED2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +176,7 @@
 				0B0A8EFF2A30826F000002F9 /* ContentView.swift */,
 				0B0A8F332A31FF74000002F9 /* MyVStackView.swift */,
 				0BEBD3722A37173300C5EED2 /* MyWebView.swift */,
+				0BEBD38A2A39CDDD00C5EED2 /* CustomNavigationView.swift */,
 			);
 			path = PresentationLayer;
 			sourceTree = "<group>";
@@ -207,6 +212,7 @@
 				0BEBD3802A3757B800C5EED2 /* MyProjectCard.swift */,
 				0BEBD3822A3837BE00C5EED2 /* MyBasicCard.swift */,
 				0BEBD3842A3866BB00C5EED2 /* MyList.swift */,
+				0BEBD38C2A3ACF0100C5EED2 /* ProfileView.swift */,
 			);
 			path = ToDoViews;
 			sourceTree = "<group>";
@@ -355,9 +361,11 @@
 				0B0A8F362A32BAC5000002F9 /* MyTextView.swift in Sources */,
 				0BEBD37B2A3752B700C5EED2 /* NavigationTestView.swift in Sources */,
 				0B0A8F342A31FF74000002F9 /* MyVStackView.swift in Sources */,
+				0BEBD38B2A39CDDD00C5EED2 /* CustomNavigationView.swift in Sources */,
 				0BEBD3772A372E8700C5EED2 /* ImageTestView.swift in Sources */,
 				0B0A8F0A2A308272000002F9 /* SwiftUITestProject.xcdatamodeld in Sources */,
 				0BEBD3792A374ED700C5EED2 /* StackTestView.swift in Sources */,
+				0BEBD38D2A3ACF0100C5EED2 /* ProfileView.swift in Sources */,
 				0BEBD3832A3837BE00C5EED2 /* MyBasicCard.swift in Sources */,
 				0BEBD3732A37173300C5EED2 /* MyWebView.swift in Sources */,
 				0BEBD3752A3720BF00C5EED2 /* TextTestView.swift in Sources */,
