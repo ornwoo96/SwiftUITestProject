@@ -16,6 +16,20 @@
 		0B0A8F142A308272000002F9 /* SwiftUITestProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0A8F132A308272000002F9 /* SwiftUITestProjectTests.swift */; };
 		0B0A8F1E2A308272000002F9 /* SwiftUITestProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0A8F1D2A308272000002F9 /* SwiftUITestProjectUITests.swift */; };
 		0B0A8F202A308272000002F9 /* SwiftUITestProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0A8F1F2A308272000002F9 /* SwiftUITestProjectUITestsLaunchTests.swift */; };
+		0B0A8F342A31FF74000002F9 /* MyVStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0A8F332A31FF74000002F9 /* MyVStackView.swift */; };
+		0B0A8F362A32BAC5000002F9 /* MyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0A8F352A32BAC5000002F9 /* MyTextView.swift */; };
+		0BEBD3732A37173300C5EED2 /* MyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD3722A37173300C5EED2 /* MyWebView.swift */; };
+		0BEBD3752A3720BF00C5EED2 /* TextTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD3742A3720BF00C5EED2 /* TextTestView.swift */; };
+		0BEBD3772A372E8700C5EED2 /* ImageTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD3762A372E8700C5EED2 /* ImageTestView.swift */; };
+		0BEBD3792A374ED700C5EED2 /* StackTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD3782A374ED700C5EED2 /* StackTestView.swift */; };
+		0BEBD37B2A3752B700C5EED2 /* NavigationTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD37A2A3752B700C5EED2 /* NavigationTestView.swift */; };
+		0BEBD37D2A37557B00C5EED2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD37C2A37557B00C5EED2 /* MainView.swift */; };
+		0BEBD3812A3757B800C5EED2 /* MyProjectCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD3802A3757B800C5EED2 /* MyProjectCard.swift */; };
+		0BEBD3832A3837BE00C5EED2 /* MyBasicCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD3822A3837BE00C5EED2 /* MyBasicCard.swift */; };
+		0BEBD3852A3866BB00C5EED2 /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD3842A3866BB00C5EED2 /* MyList.swift */; };
+		0BEBD3892A38734F00C5EED2 /* CardEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD3882A38734F00C5EED2 /* CardEntity.swift */; };
+		0BEBD38B2A39CDDD00C5EED2 /* CustomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD38A2A39CDDD00C5EED2 /* CustomNavigationView.swift */; };
+		0BEBD38D2A3ACF0100C5EED2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD38C2A3ACF0100C5EED2 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +62,21 @@
 		0B0A8F192A308272000002F9 /* SwiftUITestProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUITestProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B0A8F1D2A308272000002F9 /* SwiftUITestProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITestProjectUITests.swift; sourceTree = "<group>"; };
 		0B0A8F1F2A308272000002F9 /* SwiftUITestProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITestProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0B0A8F332A31FF74000002F9 /* MyVStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVStackView.swift; sourceTree = "<group>"; };
+		0B0A8F352A32BAC5000002F9 /* MyTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextView.swift; sourceTree = "<group>"; };
+		0BEBD3712A37167800C5EED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0BEBD3722A37173300C5EED2 /* MyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebView.swift; sourceTree = "<group>"; };
+		0BEBD3742A3720BF00C5EED2 /* TextTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTestView.swift; sourceTree = "<group>"; };
+		0BEBD3762A372E8700C5EED2 /* ImageTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTestView.swift; sourceTree = "<group>"; };
+		0BEBD3782A374ED700C5EED2 /* StackTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTestView.swift; sourceTree = "<group>"; };
+		0BEBD37A2A3752B700C5EED2 /* NavigationTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTestView.swift; sourceTree = "<group>"; };
+		0BEBD37C2A37557B00C5EED2 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		0BEBD3802A3757B800C5EED2 /* MyProjectCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectCard.swift; sourceTree = "<group>"; };
+		0BEBD3822A3837BE00C5EED2 /* MyBasicCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBasicCard.swift; sourceTree = "<group>"; };
+		0BEBD3842A3866BB00C5EED2 /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
+		0BEBD3882A38734F00C5EED2 /* CardEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardEntity.swift; sourceTree = "<group>"; };
+		0BEBD38A2A39CDDD00C5EED2 /* CustomNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationView.swift; sourceTree = "<group>"; };
+		0BEBD38C2A3ACF0100C5EED2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +127,7 @@
 		0B0A8EFC2A30826F000002F9 /* SwiftUITestProject */ = {
 			isa = PBXGroup;
 			children = (
+				0BEBD3712A37167800C5EED2 /* Info.plist */,
 				0B0A8EFD2A30826F000002F9 /* SwiftUITestProjectApp.swift */,
 				0B0A8F012A308272000002F9 /* Assets.xcassets */,
 				0B0A8F062A308272000002F9 /* Persistence.swift */,
@@ -138,7 +168,15 @@
 		0B0A8F2E2A31F6B5000002F9 /* PresentationLayer */ = {
 			isa = PBXGroup;
 			children = (
+				0BEBD3862A38731600C5EED2 /* Model */,
+				0BEBD37F2A3757A800C5EED2 /* ToDoViews */,
+				0BEBD37E2A37570C00C5EED2 /* TestViews */,
+				0BEBD37C2A37557B00C5EED2 /* MainView.swift */,
+				0BEBD37A2A3752B700C5EED2 /* NavigationTestView.swift */,
 				0B0A8EFF2A30826F000002F9 /* ContentView.swift */,
+				0B0A8F332A31FF74000002F9 /* MyVStackView.swift */,
+				0BEBD3722A37173300C5EED2 /* MyWebView.swift */,
+				0BEBD38A2A39CDDD00C5EED2 /* CustomNavigationView.swift */,
 			);
 			path = PresentationLayer;
 			sourceTree = "<group>";
@@ -155,6 +193,36 @@
 			children = (
 			);
 			path = DataLayer;
+			sourceTree = "<group>";
+		};
+		0BEBD37E2A37570C00C5EED2 /* TestViews */ = {
+			isa = PBXGroup;
+			children = (
+				0B0A8F352A32BAC5000002F9 /* MyTextView.swift */,
+				0BEBD3742A3720BF00C5EED2 /* TextTestView.swift */,
+				0BEBD3762A372E8700C5EED2 /* ImageTestView.swift */,
+				0BEBD3782A374ED700C5EED2 /* StackTestView.swift */,
+			);
+			path = TestViews;
+			sourceTree = "<group>";
+		};
+		0BEBD37F2A3757A800C5EED2 /* ToDoViews */ = {
+			isa = PBXGroup;
+			children = (
+				0BEBD3802A3757B800C5EED2 /* MyProjectCard.swift */,
+				0BEBD3822A3837BE00C5EED2 /* MyBasicCard.swift */,
+				0BEBD3842A3866BB00C5EED2 /* MyList.swift */,
+				0BEBD38C2A3ACF0100C5EED2 /* ProfileView.swift */,
+			);
+			path = ToDoViews;
+			sourceTree = "<group>";
+		};
+		0BEBD3862A38731600C5EED2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0BEBD3882A38734F00C5EED2 /* CardEntity.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,9 +356,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B0A8F072A308272000002F9 /* Persistence.swift in Sources */,
+				0BEBD37D2A37557B00C5EED2 /* MainView.swift in Sources */,
+				0BEBD3892A38734F00C5EED2 /* CardEntity.swift in Sources */,
+				0B0A8F362A32BAC5000002F9 /* MyTextView.swift in Sources */,
+				0BEBD37B2A3752B700C5EED2 /* NavigationTestView.swift in Sources */,
+				0B0A8F342A31FF74000002F9 /* MyVStackView.swift in Sources */,
+				0BEBD38B2A39CDDD00C5EED2 /* CustomNavigationView.swift in Sources */,
+				0BEBD3772A372E8700C5EED2 /* ImageTestView.swift in Sources */,
 				0B0A8F0A2A308272000002F9 /* SwiftUITestProject.xcdatamodeld in Sources */,
+				0BEBD3792A374ED700C5EED2 /* StackTestView.swift in Sources */,
+				0BEBD38D2A3ACF0100C5EED2 /* ProfileView.swift in Sources */,
+				0BEBD3832A3837BE00C5EED2 /* MyBasicCard.swift in Sources */,
+				0BEBD3732A37173300C5EED2 /* MyWebView.swift in Sources */,
+				0BEBD3752A3720BF00C5EED2 /* TextTestView.swift in Sources */,
 				0B0A8F002A30826F000002F9 /* ContentView.swift in Sources */,
+				0BEBD3812A3757B800C5EED2 /* MyProjectCard.swift in Sources */,
 				0B0A8EFE2A30826F000002F9 /* SwiftUITestProjectApp.swift in Sources */,
+				0BEBD3852A3866BB00C5EED2 /* MyList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +534,7 @@
 				DEVELOPMENT_TEAM = DAG6F8V8UR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUITestProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -481,6 +564,7 @@
 				DEVELOPMENT_TEAM = DAG6F8V8UR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUITestProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

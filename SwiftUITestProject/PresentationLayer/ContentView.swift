@@ -10,18 +10,14 @@ import CoreData
 
 struct ContentView: View {
     @Environment(\.managedObjectContext) private var viewContext
-
+    
     @FetchRequest(
         sortDescriptors: [NSSortDescriptor(keyPath: \Item.timestamp, ascending: true)],
         animation: .default)
     private var items: FetchedResults<Item>
     
     var body: some View {
-        Text("안녕 SwiftUI")
-            .fontWeight(.heavy)
-            .fontDesign(.monospaced)
-            .font(.system(size: 20))
-            .foregroundColor(.black)
+        Text("qkqh")
     }
 }
 
