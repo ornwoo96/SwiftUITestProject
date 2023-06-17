@@ -30,6 +30,9 @@
 		0BEBD3892A38734F00C5EED2 /* CardEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD3882A38734F00C5EED2 /* CardEntity.swift */; };
 		0BEBD38B2A39CDDD00C5EED2 /* CustomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD38A2A39CDDD00C5EED2 /* CustomNavigationView.swift */; };
 		0BEBD38D2A3ACF0100C5EED2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD38C2A3ACF0100C5EED2 /* ProfileView.swift */; };
+		0BEBD38F2A3AE62700C5EED2 /* GeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD38E2A3AE62700C5EED2 /* GeometryReaderView.swift */; };
+		0BEBD3912A3B015900C5EED2 /* MyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD3902A3B015900C5EED2 /* MyTabView.swift */; };
+		0BEBD3932A3B03F400C5EED2 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD3922A3B03F400C5EED2 /* MyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +80,9 @@
 		0BEBD3882A38734F00C5EED2 /* CardEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardEntity.swift; sourceTree = "<group>"; };
 		0BEBD38A2A39CDDD00C5EED2 /* CustomNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationView.swift; sourceTree = "<group>"; };
 		0BEBD38C2A3ACF0100C5EED2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		0BEBD38E2A3AE62700C5EED2 /* GeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView.swift; sourceTree = "<group>"; };
+		0BEBD3902A3B015900C5EED2 /* MyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabView.swift; sourceTree = "<group>"; };
+		0BEBD3922A3B03F400C5EED2 /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +174,7 @@
 		0B0A8F2E2A31F6B5000002F9 /* PresentationLayer */ = {
 			isa = PBXGroup;
 			children = (
+				0BEBD3942A3DF68B00C5EED2 /* TabView */,
 				0BEBD3862A38731600C5EED2 /* Model */,
 				0BEBD37F2A3757A800C5EED2 /* ToDoViews */,
 				0BEBD37E2A37570C00C5EED2 /* TestViews */,
@@ -177,6 +184,7 @@
 				0B0A8F332A31FF74000002F9 /* MyVStackView.swift */,
 				0BEBD3722A37173300C5EED2 /* MyWebView.swift */,
 				0BEBD38A2A39CDDD00C5EED2 /* CustomNavigationView.swift */,
+				0BEBD38E2A3AE62700C5EED2 /* GeometryReaderView.swift */,
 			);
 			path = PresentationLayer;
 			sourceTree = "<group>";
@@ -223,6 +231,15 @@
 				0BEBD3882A38734F00C5EED2 /* CardEntity.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		0BEBD3942A3DF68B00C5EED2 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				0BEBD3902A3B015900C5EED2 /* MyTabView.swift */,
+				0BEBD3922A3B03F400C5EED2 /* MyView.swift */,
+			);
+			path = TabView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -355,6 +372,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BEBD3932A3B03F400C5EED2 /* MyView.swift in Sources */,
 				0B0A8F072A308272000002F9 /* Persistence.swift in Sources */,
 				0BEBD37D2A37557B00C5EED2 /* MainView.swift in Sources */,
 				0BEBD3892A38734F00C5EED2 /* CardEntity.swift in Sources */,
@@ -369,7 +387,9 @@
 				0BEBD3832A3837BE00C5EED2 /* MyBasicCard.swift in Sources */,
 				0BEBD3732A37173300C5EED2 /* MyWebView.swift in Sources */,
 				0BEBD3752A3720BF00C5EED2 /* TextTestView.swift in Sources */,
+				0BEBD3912A3B015900C5EED2 /* MyTabView.swift in Sources */,
 				0B0A8F002A30826F000002F9 /* ContentView.swift in Sources */,
+				0BEBD38F2A3AE62700C5EED2 /* GeometryReaderView.swift in Sources */,
 				0BEBD3812A3757B800C5EED2 /* MyProjectCard.swift in Sources */,
 				0B0A8EFE2A30826F000002F9 /* SwiftUITestProjectApp.swift in Sources */,
 				0BEBD3852A3866BB00C5EED2 /* MyList.swift in Sources */,
