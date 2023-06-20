@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct PickerTest2View: View {
-    @State var filterValue: Int = 0
+    @State var filterValue: SType = .low
     
     @State var mySModelList: [SModel] = []
     
@@ -26,7 +26,7 @@ struct PickerTest2View: View {
     
     var body: some View {
         VStack {
-            Text("FilterValue: \(filterValue)")
+            Text("FilterValue: \(filterValue.rawValue)")
                 .font(.system(size: 30))
                 .fontWeight(.heavy)
             
@@ -47,7 +47,9 @@ struct PickerTest2View: View {
                 }
                 
                 Section {
-                    ForEach(mySModelList, id: \.self) { friendItem in
+                    ForEach(mySModelList.filter {
+                        $0.type == filterValue
+                    }) { friendItem in
                         GeometryReader { geometry in
                             HStack {
                                 Text("name: \(friendItem.name)")

@@ -13,8 +13,8 @@ enum SType: String, CaseIterable {
     case high = "고등학교"
 }
 
-struct SModel: Hashable {
-    var uuid = UUID()
+struct SModel: Identifiable, Hashable {
+    var id = UUID()
     var name: String
     var type: SType
 }
