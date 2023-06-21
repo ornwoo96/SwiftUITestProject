@@ -25,6 +25,7 @@
 		0B97AB4B2A41B46500675128 /* QRCodeScannerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97AB4A2A41B46500675128 /* QRCodeScannerExampleView.swift */; };
 		0B97AB4D2A41B4DF00675128 /* CodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97AB4C2A41B4DF00675128 /* CodeScannerView.swift */; };
 		0B97AB4F2A41B51A00675128 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97AB4E2A41B51A00675128 /* ScannerViewController.swift */; };
+		0B97AB512A431E7C00675128 /* QRCodeGuideLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97AB502A431E7C00675128 /* QRCodeGuideLineView.swift */; };
 		0BEBD3732A37173300C5EED2 /* MyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD3722A37173300C5EED2 /* MyWebView.swift */; };
 		0BEBD3752A3720BF00C5EED2 /* TextTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD3742A3720BF00C5EED2 /* TextTestView.swift */; };
 		0BEBD3772A372E8700C5EED2 /* ImageTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD3762A372E8700C5EED2 /* ImageTestView.swift */; };
@@ -82,6 +83,7 @@
 		0B97AB4A2A41B46500675128 /* QRCodeScannerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeScannerExampleView.swift; sourceTree = "<group>"; };
 		0B97AB4C2A41B4DF00675128 /* CodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeScannerView.swift; sourceTree = "<group>"; };
 		0B97AB4E2A41B51A00675128 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		0B97AB502A431E7C00675128 /* QRCodeGuideLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGuideLineView.swift; sourceTree = "<group>"; };
 		0BEBD3712A37167800C5EED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		0BEBD3722A37173300C5EED2 /* MyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebView.swift; sourceTree = "<group>"; };
 		0BEBD3742A3720BF00C5EED2 /* TextTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTestView.swift; sourceTree = "<group>"; };
@@ -245,6 +247,7 @@
 				0B97AB4A2A41B46500675128 /* QRCodeScannerExampleView.swift */,
 				0B97AB4C2A41B4DF00675128 /* CodeScannerView.swift */,
 				0B97AB4E2A41B51A00675128 /* ScannerViewController.swift */,
+				0B97AB502A431E7C00675128 /* QRCodeGuideLineView.swift */,
 			);
 			path = QRCode;
 			sourceTree = "<group>";
@@ -443,6 +446,7 @@
 				0B97AB442A41912B00675128 /* PickerTestView.swift in Sources */,
 				0BEBD3752A3720BF00C5EED2 /* TextTestView.swift in Sources */,
 				0BEBD3912A3B015900C5EED2 /* MyTabView.swift in Sources */,
+				0B97AB512A431E7C00675128 /* QRCodeGuideLineView.swift in Sources */,
 				0B0A8F002A30826F000002F9 /* ContentView.swift in Sources */,
 				0BEBD38F2A3AE62700C5EED2 /* GeometryReaderView.swift in Sources */,
 				0BEBD3812A3757B800C5EED2 /* MyProjectCard.swift in Sources */,

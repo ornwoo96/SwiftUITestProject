@@ -12,24 +12,52 @@ struct QRCodeScannerExampleView: View {
     @State private var scannedCode: String?
     
     var body: some View {
-        VStack(spacing: 10) {
-            if let code = scannedCode {
-                Text("self.scannedCode: \(self.scannedCode!)")
+        ZStack {
+            if let scanURL = self.scannedCode {
+                MyWebView(urlToLoad: scanURL)
+            } else {
+                MyWebView(urlToLoad: "http://www.naver.com")
             }
             
-            Button("Scan Code") {
-                isPresentingScanner = true
-            }
             
-            Text("Scan a QR code to begin")
-        }
-        .sheet(isPresented: $isPresentingScanner) {
-            CodeScannerView(codeTypes: [.qr]) { response in
-                if case let .success(result) = response {
-                    scannedCode = result.string
-                    isPresentingScanner = false
+            VStack {
+                
+                Spacer()
+                
+                Button(action: {
+                    self.isPresentingScanner = true
+                }) {
+                    Text("로또번호확인")
+                        .font(.system(size: 20))
+                        .fontWeight(.bold)
+                        .padding()
+                        .background(Color.yellow)
+                        .cornerRadius(12)
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 12)
+                                .stroke(lineWidth: 5)
+                        )
                 }
+                .sheet(isPresented: $isPresentingScanner) {
+                    self.scannerSheet
+                }
+                
+                Spacer().frame(height: 30)
             }
+        }
+    }
+    
+    var scannerSheet: some View {
+        ZStack {
+            CodeScannerView(
+                codeTypes: [.qr],
+                completion: { result in
+                    if case let .success(code) = result {
+                        self.sca nnedCode = code.string
+                        self.isPresentingScanner = false
+                    }
+                })
+            QRCodeGuideLineView()
         }
     }
 }
