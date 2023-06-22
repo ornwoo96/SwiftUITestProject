@@ -18,6 +18,14 @@
 		0B0A8F202A308272000002F9 /* SwiftUITestProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0A8F1F2A308272000002F9 /* SwiftUITestProjectUITestsLaunchTests.swift */; };
 		0B0A8F342A31FF74000002F9 /* MyVStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0A8F332A31FF74000002F9 /* MyVStackView.swift */; };
 		0B0A8F362A32BAC5000002F9 /* MyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0A8F352A32BAC5000002F9 /* MyTextView.swift */; };
+		0B97AB412A400D9500675128 /* SegmentedLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97AB402A400D9500675128 /* SegmentedLayoutView.swift */; };
+		0B97AB442A41912B00675128 /* PickerTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97AB432A41912B00675128 /* PickerTestView.swift */; };
+		0B97AB462A419A7400675128 /* PickerTest2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97AB452A419A7400675128 /* PickerTest2View.swift */; };
+		0B97AB482A419CB800675128 /* SModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97AB472A419CB800675128 /* SModel.swift */; };
+		0B97AB4B2A41B46500675128 /* QRCodeScannerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97AB4A2A41B46500675128 /* QRCodeScannerExampleView.swift */; };
+		0B97AB4D2A41B4DF00675128 /* CodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97AB4C2A41B4DF00675128 /* CodeScannerView.swift */; };
+		0B97AB4F2A41B51A00675128 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97AB4E2A41B51A00675128 /* ScannerViewController.swift */; };
+		0B97AB512A431E7C00675128 /* QRCodeGuideLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97AB502A431E7C00675128 /* QRCodeGuideLineView.swift */; };
 		0BEBD3732A37173300C5EED2 /* MyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD3722A37173300C5EED2 /* MyWebView.swift */; };
 		0BEBD3752A3720BF00C5EED2 /* TextTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD3742A3720BF00C5EED2 /* TextTestView.swift */; };
 		0BEBD3772A372E8700C5EED2 /* ImageTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD3762A372E8700C5EED2 /* ImageTestView.swift */; };
@@ -30,6 +38,10 @@
 		0BEBD3892A38734F00C5EED2 /* CardEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD3882A38734F00C5EED2 /* CardEntity.swift */; };
 		0BEBD38B2A39CDDD00C5EED2 /* CustomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD38A2A39CDDD00C5EED2 /* CustomNavigationView.swift */; };
 		0BEBD38D2A3ACF0100C5EED2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD38C2A3ACF0100C5EED2 /* ProfileView.swift */; };
+		0BEBD38F2A3AE62700C5EED2 /* GeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD38E2A3AE62700C5EED2 /* GeometryReaderView.swift */; };
+		0BEBD3912A3B015900C5EED2 /* MyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD3902A3B015900C5EED2 /* MyTabView.swift */; };
+		0BEBD3932A3B03F400C5EED2 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD3922A3B03F400C5EED2 /* MyView.swift */; };
+		0BEBD3962A3DF76300C5EED2 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD3952A3DF76300C5EED2 /* CustomTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +76,14 @@
 		0B0A8F1F2A308272000002F9 /* SwiftUITestProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITestProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0B0A8F332A31FF74000002F9 /* MyVStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVStackView.swift; sourceTree = "<group>"; };
 		0B0A8F352A32BAC5000002F9 /* MyTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextView.swift; sourceTree = "<group>"; };
+		0B97AB402A400D9500675128 /* SegmentedLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedLayoutView.swift; sourceTree = "<group>"; };
+		0B97AB432A41912B00675128 /* PickerTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerTestView.swift; sourceTree = "<group>"; };
+		0B97AB452A419A7400675128 /* PickerTest2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerTest2View.swift; sourceTree = "<group>"; };
+		0B97AB472A419CB800675128 /* SModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SModel.swift; sourceTree = "<group>"; };
+		0B97AB4A2A41B46500675128 /* QRCodeScannerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeScannerExampleView.swift; sourceTree = "<group>"; };
+		0B97AB4C2A41B4DF00675128 /* CodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeScannerView.swift; sourceTree = "<group>"; };
+		0B97AB4E2A41B51A00675128 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		0B97AB502A431E7C00675128 /* QRCodeGuideLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGuideLineView.swift; sourceTree = "<group>"; };
 		0BEBD3712A37167800C5EED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		0BEBD3722A37173300C5EED2 /* MyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebView.swift; sourceTree = "<group>"; };
 		0BEBD3742A3720BF00C5EED2 /* TextTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTestView.swift; sourceTree = "<group>"; };
@@ -77,6 +97,10 @@
 		0BEBD3882A38734F00C5EED2 /* CardEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardEntity.swift; sourceTree = "<group>"; };
 		0BEBD38A2A39CDDD00C5EED2 /* CustomNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationView.swift; sourceTree = "<group>"; };
 		0BEBD38C2A3ACF0100C5EED2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		0BEBD38E2A3AE62700C5EED2 /* GeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView.swift; sourceTree = "<group>"; };
+		0BEBD3902A3B015900C5EED2 /* MyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabView.swift; sourceTree = "<group>"; };
+		0BEBD3922A3B03F400C5EED2 /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		0BEBD3952A3DF76300C5EED2 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +192,10 @@
 		0B0A8F2E2A31F6B5000002F9 /* PresentationLayer */ = {
 			isa = PBXGroup;
 			children = (
+				0B97AB492A41B44500675128 /* QRCode */,
+				0B97AB422A41911700675128 /* PickerView */,
+				0B97AB3F2A400D3F00675128 /* GridView */,
+				0BEBD3942A3DF68B00C5EED2 /* TabView */,
 				0BEBD3862A38731600C5EED2 /* Model */,
 				0BEBD37F2A3757A800C5EED2 /* ToDoViews */,
 				0BEBD37E2A37570C00C5EED2 /* TestViews */,
@@ -177,6 +205,7 @@
 				0B0A8F332A31FF74000002F9 /* MyVStackView.swift */,
 				0BEBD3722A37173300C5EED2 /* MyWebView.swift */,
 				0BEBD38A2A39CDDD00C5EED2 /* CustomNavigationView.swift */,
+				0BEBD38E2A3AE62700C5EED2 /* GeometryReaderView.swift */,
 			);
 			path = PresentationLayer;
 			sourceTree = "<group>";
@@ -193,6 +222,34 @@
 			children = (
 			);
 			path = DataLayer;
+			sourceTree = "<group>";
+		};
+		0B97AB3F2A400D3F00675128 /* GridView */ = {
+			isa = PBXGroup;
+			children = (
+				0B97AB402A400D9500675128 /* SegmentedLayoutView.swift */,
+			);
+			path = GridView;
+			sourceTree = "<group>";
+		};
+		0B97AB422A41911700675128 /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				0B97AB432A41912B00675128 /* PickerTestView.swift */,
+				0B97AB452A419A7400675128 /* PickerTest2View.swift */,
+			);
+			path = PickerView;
+			sourceTree = "<group>";
+		};
+		0B97AB492A41B44500675128 /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				0B97AB4A2A41B46500675128 /* QRCodeScannerExampleView.swift */,
+				0B97AB4C2A41B4DF00675128 /* CodeScannerView.swift */,
+				0B97AB4E2A41B51A00675128 /* ScannerViewController.swift */,
+				0B97AB502A431E7C00675128 /* QRCodeGuideLineView.swift */,
+			);
+			path = QRCode;
 			sourceTree = "<group>";
 		};
 		0BEBD37E2A37570C00C5EED2 /* TestViews */ = {
@@ -221,8 +278,19 @@
 			isa = PBXGroup;
 			children = (
 				0BEBD3882A38734F00C5EED2 /* CardEntity.swift */,
+				0B97AB472A419CB800675128 /* SModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		0BEBD3942A3DF68B00C5EED2 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				0BEBD3902A3B015900C5EED2 /* MyTabView.swift */,
+				0BEBD3922A3B03F400C5EED2 /* MyView.swift */,
+				0BEBD3952A3DF76300C5EED2 /* CustomTabView.swift */,
+			);
+			path = TabView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -355,22 +423,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B97AB4D2A41B4DF00675128 /* CodeScannerView.swift in Sources */,
+				0BEBD3932A3B03F400C5EED2 /* MyView.swift in Sources */,
 				0B0A8F072A308272000002F9 /* Persistence.swift in Sources */,
 				0BEBD37D2A37557B00C5EED2 /* MainView.swift in Sources */,
 				0BEBD3892A38734F00C5EED2 /* CardEntity.swift in Sources */,
+				0B97AB412A400D9500675128 /* SegmentedLayoutView.swift in Sources */,
 				0B0A8F362A32BAC5000002F9 /* MyTextView.swift in Sources */,
 				0BEBD37B2A3752B700C5EED2 /* NavigationTestView.swift in Sources */,
+				0B97AB4F2A41B51A00675128 /* ScannerViewController.swift in Sources */,
 				0B0A8F342A31FF74000002F9 /* MyVStackView.swift in Sources */,
+				0BEBD3962A3DF76300C5EED2 /* CustomTabView.swift in Sources */,
 				0BEBD38B2A39CDDD00C5EED2 /* CustomNavigationView.swift in Sources */,
+				0B97AB462A419A7400675128 /* PickerTest2View.swift in Sources */,
 				0BEBD3772A372E8700C5EED2 /* ImageTestView.swift in Sources */,
 				0B0A8F0A2A308272000002F9 /* SwiftUITestProject.xcdatamodeld in Sources */,
+				0B97AB4B2A41B46500675128 /* QRCodeScannerExampleView.swift in Sources */,
 				0BEBD3792A374ED700C5EED2 /* StackTestView.swift in Sources */,
 				0BEBD38D2A3ACF0100C5EED2 /* ProfileView.swift in Sources */,
 				0BEBD3832A3837BE00C5EED2 /* MyBasicCard.swift in Sources */,
 				0BEBD3732A37173300C5EED2 /* MyWebView.swift in Sources */,
+				0B97AB442A41912B00675128 /* PickerTestView.swift in Sources */,
 				0BEBD3752A3720BF00C5EED2 /* TextTestView.swift in Sources */,
+				0BEBD3912A3B015900C5EED2 /* MyTabView.swift in Sources */,
+				0B97AB512A431E7C00675128 /* QRCodeGuideLineView.swift in Sources */,
 				0B0A8F002A30826F000002F9 /* ContentView.swift in Sources */,
+				0BEBD38F2A3AE62700C5EED2 /* GeometryReaderView.swift in Sources */,
 				0BEBD3812A3757B800C5EED2 /* MyProjectCard.swift in Sources */,
+				0B97AB482A419CB800675128 /* SModel.swift in Sources */,
 				0B0A8EFE2A30826F000002F9 /* SwiftUITestProjectApp.swift in Sources */,
 				0BEBD3852A3866BB00C5EED2 /* MyList.swift in Sources */,
 			);
