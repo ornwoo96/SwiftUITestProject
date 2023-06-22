@@ -53,7 +53,7 @@ struct QRCodeScannerExampleView: View {
                 codeTypes: [.qr],
                 completion: { result in
                     if case let .success(code) = result {
-                        self.sca nnedCode = code.string
+                        self.scannedCode = code.string
                         self.isPresentingScanner = false
                     }
                 })

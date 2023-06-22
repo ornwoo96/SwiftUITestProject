@@ -26,6 +26,12 @@
 		0B97AB4D2A41B4DF00675128 /* CodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97AB4C2A41B4DF00675128 /* CodeScannerView.swift */; };
 		0B97AB4F2A41B51A00675128 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97AB4E2A41B51A00675128 /* ScannerViewController.swift */; };
 		0B97AB512A431E7C00675128 /* QRCodeGuideLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97AB502A431E7C00675128 /* QRCodeGuideLineView.swift */; };
+		0B97AB542A43425700675128 /* CustomButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97AB532A43425700675128 /* CustomButtonsView.swift */; };
+		0B97AB562A43439200675128 /* MyButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97AB552A43439200675128 /* MyButtonStyle.swift */; };
+		0B97AB582A44103000675128 /* ButtonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97AB572A44102F00675128 /* ButtonModel.swift */; };
+		0B97AB5C2A443F1F00675128 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97AB5B2A443F1F00675128 /* TextFieldView.swift */; };
+		0B97AB5F2A445D1800675128 /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = 0B97AB5E2A445D1800675128 /* PopupView */; };
+		0B97AB622A445D3000675128 /* PopupViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97AB612A445D3000675128 /* PopupViews.swift */; };
 		0BEBD3732A37173300C5EED2 /* MyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD3722A37173300C5EED2 /* MyWebView.swift */; };
 		0BEBD3752A3720BF00C5EED2 /* TextTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD3742A3720BF00C5EED2 /* TextTestView.swift */; };
 		0BEBD3772A372E8700C5EED2 /* ImageTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD3762A372E8700C5EED2 /* ImageTestView.swift */; };
@@ -84,6 +90,11 @@
 		0B97AB4C2A41B4DF00675128 /* CodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeScannerView.swift; sourceTree = "<group>"; };
 		0B97AB4E2A41B51A00675128 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
 		0B97AB502A431E7C00675128 /* QRCodeGuideLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGuideLineView.swift; sourceTree = "<group>"; };
+		0B97AB532A43425700675128 /* CustomButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonsView.swift; sourceTree = "<group>"; };
+		0B97AB552A43439200675128 /* MyButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButtonStyle.swift; sourceTree = "<group>"; };
+		0B97AB572A44102F00675128 /* ButtonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModel.swift; sourceTree = "<group>"; };
+		0B97AB5B2A443F1F00675128 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		0B97AB612A445D3000675128 /* PopupViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViews.swift; sourceTree = "<group>"; };
 		0BEBD3712A37167800C5EED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		0BEBD3722A37173300C5EED2 /* MyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebView.swift; sourceTree = "<group>"; };
 		0BEBD3742A3720BF00C5EED2 /* TextTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTestView.swift; sourceTree = "<group>"; };
@@ -108,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B97AB5F2A445D1800675128 /* PopupView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +204,9 @@
 		0B0A8F2E2A31F6B5000002F9 /* PresentationLayer */ = {
 			isa = PBXGroup;
 			children = (
+				0B97AB602A445D2000675128 /* PopupViews */,
+				0B97AB592A443F0900675128 /* TextField */,
+				0B97AB522A433D0F00675128 /* CustomButton */,
 				0B97AB492A41B44500675128 /* QRCode */,
 				0B97AB422A41911700675128 /* PickerView */,
 				0B97AB3F2A400D3F00675128 /* GridView */,
@@ -252,6 +267,31 @@
 			path = QRCode;
 			sourceTree = "<group>";
 		};
+		0B97AB522A433D0F00675128 /* CustomButton */ = {
+			isa = PBXGroup;
+			children = (
+				0B97AB532A43425700675128 /* CustomButtonsView.swift */,
+				0B97AB552A43439200675128 /* MyButtonStyle.swift */,
+			);
+			path = CustomButton;
+			sourceTree = "<group>";
+		};
+		0B97AB592A443F0900675128 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				0B97AB5B2A443F1F00675128 /* TextFieldView.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		0B97AB602A445D2000675128 /* PopupViews */ = {
+			isa = PBXGroup;
+			children = (
+				0B97AB612A445D3000675128 /* PopupViews.swift */,
+			);
+			path = PopupViews;
+			sourceTree = "<group>";
+		};
 		0BEBD37E2A37570C00C5EED2 /* TestViews */ = {
 			isa = PBXGroup;
 			children = (
@@ -279,6 +319,7 @@
 			children = (
 				0BEBD3882A38734F00C5EED2 /* CardEntity.swift */,
 				0B97AB472A419CB800675128 /* SModel.swift */,
+				0B97AB572A44102F00675128 /* ButtonModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -309,6 +350,9 @@
 			dependencies = (
 			);
 			name = SwiftUITestProject;
+			packageProductDependencies = (
+				0B97AB5E2A445D1800675128 /* PopupView */,
+			);
 			productName = SwiftUITestProject;
 			productReference = 0B0A8EFA2A30826F000002F9 /* SwiftUITestProject.app */;
 			productType = "com.apple.product-type.application";
@@ -381,6 +425,9 @@
 				Base,
 			);
 			mainGroup = 0B0A8EF12A30826F000002F9;
+			packageReferences = (
+				0B97AB5D2A445D1800675128 /* XCRemoteSwiftPackageReference "PopupView" */,
+			);
 			productRefGroup = 0B0A8EFB2A30826F000002F9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -424,8 +471,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B97AB4D2A41B4DF00675128 /* CodeScannerView.swift in Sources */,
+				0B97AB562A43439200675128 /* MyButtonStyle.swift in Sources */,
 				0BEBD3932A3B03F400C5EED2 /* MyView.swift in Sources */,
 				0B0A8F072A308272000002F9 /* Persistence.swift in Sources */,
+				0B97AB5C2A443F1F00675128 /* TextFieldView.swift in Sources */,
 				0BEBD37D2A37557B00C5EED2 /* MainView.swift in Sources */,
 				0BEBD3892A38734F00C5EED2 /* CardEntity.swift in Sources */,
 				0B97AB412A400D9500675128 /* SegmentedLayoutView.swift in Sources */,
@@ -433,8 +482,10 @@
 				0BEBD37B2A3752B700C5EED2 /* NavigationTestView.swift in Sources */,
 				0B97AB4F2A41B51A00675128 /* ScannerViewController.swift in Sources */,
 				0B0A8F342A31FF74000002F9 /* MyVStackView.swift in Sources */,
+				0B97AB582A44103000675128 /* ButtonModel.swift in Sources */,
 				0BEBD3962A3DF76300C5EED2 /* CustomTabView.swift in Sources */,
 				0BEBD38B2A39CDDD00C5EED2 /* CustomNavigationView.swift in Sources */,
+				0B97AB542A43425700675128 /* CustomButtonsView.swift in Sources */,
 				0B97AB462A419A7400675128 /* PickerTest2View.swift in Sources */,
 				0BEBD3772A372E8700C5EED2 /* ImageTestView.swift in Sources */,
 				0B0A8F0A2A308272000002F9 /* SwiftUITestProject.xcdatamodeld in Sources */,
@@ -444,6 +495,7 @@
 				0BEBD3832A3837BE00C5EED2 /* MyBasicCard.swift in Sources */,
 				0BEBD3732A37173300C5EED2 /* MyWebView.swift in Sources */,
 				0B97AB442A41912B00675128 /* PickerTestView.swift in Sources */,
+				0B97AB622A445D3000675128 /* PopupViews.swift in Sources */,
 				0BEBD3752A3720BF00C5EED2 /* TextTestView.swift in Sources */,
 				0BEBD3912A3B015900C5EED2 /* MyTabView.swift in Sources */,
 				0B97AB512A431E7C00675128 /* QRCodeGuideLineView.swift in Sources */,
@@ -779,6 +831,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0B97AB5D2A445D1800675128 /* XCRemoteSwiftPackageReference "PopupView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/PopupView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0B97AB5E2A445D1800675128 /* PopupView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B97AB5D2A445D1800675128 /* XCRemoteSwiftPackageReference "PopupView" */;
+			productName = PopupView;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		0B0A8F082A308272000002F9 /* SwiftUITestProject.xcdatamodeld */ = {
