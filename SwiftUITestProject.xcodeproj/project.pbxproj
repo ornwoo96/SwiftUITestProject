@@ -32,6 +32,8 @@
 		0B97AB5C2A443F1F00675128 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97AB5B2A443F1F00675128 /* TextFieldView.swift */; };
 		0B97AB5F2A445D1800675128 /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = 0B97AB5E2A445D1800675128 /* PopupView */; };
 		0B97AB622A445D3000675128 /* PopupViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97AB612A445D3000675128 /* PopupViews.swift */; };
+		0B97AB652A45503E00675128 /* ToDoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97AB642A45503E00675128 /* ToDoList.swift */; };
+		0B97AB682A46D99600675128 /* ToDoProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97AB672A46D99600675128 /* ToDoProfileView.swift */; };
 		0BEBD3732A37173300C5EED2 /* MyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD3722A37173300C5EED2 /* MyWebView.swift */; };
 		0BEBD3752A3720BF00C5EED2 /* TextTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD3742A3720BF00C5EED2 /* TextTestView.swift */; };
 		0BEBD3772A372E8700C5EED2 /* ImageTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBD3762A372E8700C5EED2 /* ImageTestView.swift */; };
@@ -95,6 +97,8 @@
 		0B97AB572A44102F00675128 /* ButtonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModel.swift; sourceTree = "<group>"; };
 		0B97AB5B2A443F1F00675128 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
 		0B97AB612A445D3000675128 /* PopupViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViews.swift; sourceTree = "<group>"; };
+		0B97AB642A45503E00675128 /* ToDoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoList.swift; sourceTree = "<group>"; };
+		0B97AB672A46D99600675128 /* ToDoProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoProfileView.swift; sourceTree = "<group>"; };
 		0BEBD3712A37167800C5EED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		0BEBD3722A37173300C5EED2 /* MyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebView.swift; sourceTree = "<group>"; };
 		0BEBD3742A3720BF00C5EED2 /* TextTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTestView.swift; sourceTree = "<group>"; };
@@ -204,6 +208,7 @@
 		0B0A8F2E2A31F6B5000002F9 /* PresentationLayer */ = {
 			isa = PBXGroup;
 			children = (
+				0B97AB632A45502B00675128 /* DeepLink */,
 				0B97AB602A445D2000675128 /* PopupViews */,
 				0B97AB592A443F0900675128 /* TextField */,
 				0B97AB522A433D0F00675128 /* CustomButton */,
@@ -290,6 +295,15 @@
 				0B97AB612A445D3000675128 /* PopupViews.swift */,
 			);
 			path = PopupViews;
+			sourceTree = "<group>";
+		};
+		0B97AB632A45502B00675128 /* DeepLink */ = {
+			isa = PBXGroup;
+			children = (
+				0B97AB642A45503E00675128 /* ToDoList.swift */,
+				0B97AB672A46D99600675128 /* ToDoProfileView.swift */,
+			);
+			path = DeepLink;
 			sourceTree = "<group>";
 		};
 		0BEBD37E2A37570C00C5EED2 /* TestViews */ = {
@@ -476,6 +490,7 @@
 				0B0A8F072A308272000002F9 /* Persistence.swift in Sources */,
 				0B97AB5C2A443F1F00675128 /* TextFieldView.swift in Sources */,
 				0BEBD37D2A37557B00C5EED2 /* MainView.swift in Sources */,
+				0B97AB682A46D99600675128 /* ToDoProfileView.swift in Sources */,
 				0BEBD3892A38734F00C5EED2 /* CardEntity.swift in Sources */,
 				0B97AB412A400D9500675128 /* SegmentedLayoutView.swift in Sources */,
 				0B0A8F362A32BAC5000002F9 /* MyTextView.swift in Sources */,
@@ -489,6 +504,7 @@
 				0B97AB462A419A7400675128 /* PickerTest2View.swift in Sources */,
 				0BEBD3772A372E8700C5EED2 /* ImageTestView.swift in Sources */,
 				0B0A8F0A2A308272000002F9 /* SwiftUITestProject.xcdatamodeld in Sources */,
+				0B97AB652A45503E00675128 /* ToDoList.swift in Sources */,
 				0B97AB4B2A41B46500675128 /* QRCodeScannerExampleView.swift in Sources */,
 				0BEBD3792A374ED700C5EED2 /* StackTestView.swift in Sources */,
 				0BEBD38D2A3ACF0100C5EED2 /* ProfileView.swift in Sources */,
